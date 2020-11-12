@@ -1,0 +1,46 @@
+// breakpoints
+$xs: 430px;
+$sm: 500px;
+$tablet: 668px;
+$md: 954px;
+$lg: 1024px;
+$xl: 1265px;
+$split: 638px;
+
+@mixin split {
+    @media screen and (min-width: #{$split}) {
+        @content;
+    }
+}
+
+@mixin xs {
+    @media screen and (min-width: #{$xs}) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media screen and (min-width: #{$sm}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (min-width: #{$tablet}) {
+        @content;
+    }
+}
+@mixin md {
+    @media screen and (min-width: #{$md}) {
+        @content;
+    }
+}
+@mixin lg {
+    @media screen and (min-width: #{$lg}) {
+        @content;
+    }
+}
+@mixin xl {
+    @media screen and (min-width: #{$xl}) {
+        @content;
+    }
+}

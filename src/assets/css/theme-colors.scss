@@ -1,0 +1,21 @@
+:root {
+    --app-background-color: #fafafa;
+    --app-color: white;
+    --border-color: #dbdbdb;
+    --input-color: #fafafa;
+    --text-color: rgb(64 64 64);
+    --logo: invert(0%);
+    --search-color: rgb(161, 161, 161);
+}
+
+[theme="dark"] {
+    --input-color: #202a3b;
+    --app-background-color: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    
+    
+    --app-color: #262626;
+    --border-color: #343536;
+    --logo: invert(100%);
+    --text-color: #dbdbdb;
+    --search-color: rgb(116, 116, 116);
+}
