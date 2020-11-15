@@ -1,4 +1,4 @@
-# insta-vue-2
+# instaram-vue
 
 ## Project setup
 ```
